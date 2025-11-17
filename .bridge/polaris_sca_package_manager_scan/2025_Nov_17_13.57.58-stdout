@@ -1,0 +1,111 @@
+/Users/gonz/.blackduck/desktop/controller/installedtools/bridge/3.9.2/adapters/detect-execution/versions/0.2.150/detect-execution package /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/data.json
+{"level":"info","logger":"Detect Execution","msg":"Running command java -jar /Users/gonz/.blackduck/bridge/tools/blackduck-detect/10.4.0/detect-10.4.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact --detect.output.path=/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect --detect.tools=DETECTOR --detect.component.location.analysis.enabled=true --blackduck.offline.mode=true --blackduck.offline.mode.force.bdio=true","time":"2025-11-17 13:57:58.4561 PST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Self-Update feature is disabled because of the following reasons:","time":"2025-11-17 13:57:58.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Detect in offline mode is incompatible with the Self-Update feature.","time":"2025-11-17 13:57:58.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Black Duck URL is required for the Self-Update feature.","time":"2025-11-17 13:57:58.0000 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"______     _            _","time":"2025-11-17 13:57:59.3443 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"|  _  \\   | |          | |","time":"2025-11-17 13:57:59.3443 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| | | |___| |_ ___  ___| |_","time":"2025-11-17 13:57:59.3443 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| | | / _ \\ __/ _ \\/ __| __|","time":"2025-11-17 13:57:59.3444 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| |/ /  __/ ||  __/ (__| |_","time":"2025-11-17 13:57:59.3444 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"|___/ \\___|\\__\\___|\\___|\\__|","time":"2025-11-17 13:57:59.3444 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"","time":"2025-11-17 13:57:59.3444 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"","time":"2025-11-17 13:57:59.4296 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"Detect Version: 10.4.0","time":"2025-11-17 13:57:59.4297 PST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"","time":"2025-11-17 13:57:59.4297 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Current property values:","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- --property = value [notes]","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ------------------------------------------------------------","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.offline.mode = true [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.offline.mode.force.bdio = true [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.bdio.file.name = scan [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.bdio.output.path = /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.cleanup = false [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.component.location.analysis.enabled = true [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.excluded.directories = /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge [env] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.maven.path = /Users/gonz/Library/CloudStorage/OneDrive-BlackDuckSoftware/Documents/apache-maven-3.9.9/bin/mvn [env] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.npm.path = /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js [env] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.output.path = /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.tools = DETECTOR [cmd] ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ------------------------------------------------------------","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect build date: 2025-04-24","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Source directory: /Users/gonz/Code/VibeCoding/SKO-BlackJack","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Output directory: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Run directory: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Docker tool will not be run.","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Bazel tool will not be run.","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Will include the Detectors tool.","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Searching for detectors.","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Evaluating detectors. This may take a while.","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/bin/git config --get remote.origin.url","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/bin/git rev-parse --abbrev-ref HEAD","time":"2025-11-17 13:57:59.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/bin/git rev-parse HEAD","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======================================================================================================","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detector Report","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======================================================================================================","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t/Users/gonz/Code/VibeCoding/SKO-BlackJack (depth 0)","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tNPM Package Lock: SUCCESS","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/package-lock.json","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/package.json","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tGit: SUCCESS","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.git","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound executable: /usr/bin/git","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- The following project names were found: ","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tNPM: sko-blackjack, 1.0.0","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Chose to use NPM at depth 0 for project name and version. Override with detect.project.detector.","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detectors actions finished.","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Project name: sko-blackjack","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Project version: 1.0.0","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Signature Scanner tool will not be run.","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Vulnerability Impact Analysis tool will not be run.","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- IaC Scanner tool will not be run.","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ##################################################################################################","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #                                                                                                #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  Product Notice                                                                                #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  © 2024 Black Duck Software, Inc.                                                              #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  This Black Duck Component Locator and all associated documentation are proprietary            #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  to Black Duck Software, Inc. and may only be used pursuant to the terms and conditions of a   #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  written license agreement with Black Duck Software, Inc. All other use, reproduction,         #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  modification, or distribution of the Black Duck Component Locator or the associated           #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #  documentation is strictly prohibited.                                                         #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- #                                                                                                #","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ##################################################################################################","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running Component Locator v1.1.12 on /Users/gonz/Code/VibeCoding/SKO-BlackJack","time":"2025-11-17 13:58:00.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Component Location Analysis file saved at: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/scan/components-with-locations.json","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Creating status file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/status/status.json","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Skipping cleanup, it is disabled.","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======== Detect Result ========","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Component Location Analysis File: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/scan/components-with-locations.json","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======== Detect Status ========","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- GIT: SUCCESS","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- NPM: SUCCESS","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Overall Status: SUCCESS - Detect exited successfully.","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ===============================","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2025-11-17 13:58:02.0000 PST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect duration: 00h 00m 03s 626ms","time":"2025-11-17 13:58:02.0000 PST"}

@@ -1,0 +1,103 @@
+{
+  "configId": {
+    "id": "53872518-ef4f-4803-a86f-43646537ce4c"
+  },
+  "scanType": {
+    "type": 1,
+    "name": "Polaris",
+    "supportsDiffing": true,
+    "description": "Runs both static and software composition analysis scans. Detects hard-coded secrets, security defects, and vulnerabilities in both proprietary and open source code."
+  },
+  "coverityConfig": {
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalAnalysisArguments": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "blackDuckConfig": {
+    "additionalArguments": {
+      "source": {
+        "type": 8
+      }
+    },
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "searchDepth": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "bridgeConfig": {
+    "installationLocation": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalArguments": {
+      "source": {
+        "type": 8
+      }
+    },
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "scanTypes": [
+      0,
+      1
+    ]
+  },
+  "issueSource": {
+    "reference": {
+      "info": {
+        "name": "EGC-SKO-BlackJack",
+        "id": "8d97e153-1f61-400b-bcd5-447afa0eb87e",
+        "displayName": "EGC-SKO-BlackJack",
+        "depth": 2
+      },
+      "parent": {
+        "info": {
+          "name": "EGC-SKO-BlackJack",
+          "id": "30fd0e39-d30e-42e4-a948-4c5c21268ebf",
+          "displayName": "EGC-SKO-BlackJack",
+          "depth": 1,
+          "localId": "poc.polaris.blackduck.com--EGC-SKO-BlackJack-30fd0e39-d30e-42e4-a948-4c5c21268ebf"
+        }
+      }
+    }
+  },
+  "buildConfig": {
+    "buildCommand": {
+      "source": {
+        "type": 8
+      }
+    },
+    "cleanCommand": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "workingDirectory": {
+    "value": "/Users/gonz/Code/VibeCoding/SKO-BlackJack",
+    "source": {
+      "type": 8
+    }
+  },
+  "path": {
+    "source": {
+      "type": 8
+    }
+  }
+}

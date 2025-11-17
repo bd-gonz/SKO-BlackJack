@@ -36,3 +36,5 @@ frontend/build/
 # Misc
 .cache/
 coverage/
+.codesight/
+.bridge/
