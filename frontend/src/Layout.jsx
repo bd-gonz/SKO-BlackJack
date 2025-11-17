@@ -8,7 +8,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer className="app-footer">
-        <p>Blackjack Game v1.0.0 | © 2024</p>
+        <p>Blackjack Game v1.0.0 ({new Date().toLocaleDateString()}) | © 2024</p>
       </footer>
     </div>
   );
