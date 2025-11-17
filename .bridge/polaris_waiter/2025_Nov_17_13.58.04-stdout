@@ -5,3 +5,4 @@
 {"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SCA(scaPackage)\" and id \"a48f591b-3a3c-4800-8108-a0c983c2b3e2\" is \"Waiting for Capture\"","time":"2025-11-17 13:58:05.1843 PST"}
 {"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SCA(scaPackage)\" and id \"a48f591b-3a3c-4800-8108-a0c983c2b3e2\" is \"Queuing\"","time":"2025-11-17 13:58:15.3788 PST"}
 {"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SCA(scaPackage)\" and id \"a48f591b-3a3c-4800-8108-a0c983c2b3e2\" is \"Scanning \u0026 Publishing\"","time":"2025-11-17 13:58:56.1709 PST"}
+{"level":"info","logger":"Polaris Waiter","msg":"test with assessment type \"SCA(scaPackage)\" and id \"a48f591b-3a3c-4800-8108-a0c983c2b3e2\" completed successfully","time":"2025-11-17 13:59:16.5871 PST"}

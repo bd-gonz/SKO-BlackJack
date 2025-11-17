@@ -303,3 +303,32 @@
 2025-11-17 13:58:05.1843 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Waiting for Capture"
 2025-11-17 13:58:15.3788 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Queuing"
 2025-11-17 13:58:56.1709 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Scanning & Publishing"
+2025-11-17 13:59:16.5871 PST [Polaris Waiter] INFO: test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" completed successfully
+2025-11-17 13:59:16.6011 PST [Polaris Waiter] INFO: Provided value for resource 'polaris.test.sca.tests.scaPackage.completed'
+2025-11-17 13:59:16.6013 PST [Polaris Waiter] INFO: Provided value for resource 'polaris.test.sast.tests.sastFull.completed'
+2025-11-17 13:59:16.6019 PST [Polaris Waiter] ERROR: Adapter failed: exit status 1
+2025-11-17 13:59:16.9834 PST [Polaris Policy Checker] WARNING: Skipping policy violations check for "SAST(sastFull)" assessment with id "1664f061-b4b8-4142-9954-0cfdbb5c5f5d", as the test is not completed
+2025-11-17 13:59:16.9836 PST [Polaris Policy Checker] INFO: Checking for policy violations for "SCA(scaPackage)" assessment...
+2025-11-17 13:59:17.4035 PST [Polaris Policy Checker] INFO: no policies were violated to break the build
+2025-11-17 13:59:17.4162 PST [Polaris Policy Checker] INFO: Adapter finished
+2025-11-17 13:59:17.7790 PST [Polaris Issues Fetcher] WARNING: Will not fetch issues for "SAST(sastFull)" assessment, as the test is not completed
+2025-11-17 13:59:17.7792 PST [Polaris Issues Fetcher] INFO: Fetching issues for "SCA(scaPackage)" assessment
+2025-11-17 13:59:18.1500 PST [Polaris Issues Fetcher] INFO: Successfully fetched issues for assessment type "SCA(scaPackage)" with id "a48f591b-3a3c-4800-8108-a0c983c2b3e2"
+ {
+ "critical": 0,
+ "high": 0,
+ "informational": 0,
+ "low": 0,
+ "medium": 0
+}
+2025-11-17 13:59:18.1636 PST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.high'
+2025-11-17 13:59:18.1638 PST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.informational'
+2025-11-17 13:59:18.1640 PST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.medium'
+2025-11-17 13:59:18.1643 PST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.critical'
+2025-11-17 13:59:18.1645 PST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.issues.low'
+2025-11-17 13:59:18.1648 PST [Polaris Issues Fetcher] INFO: Adapter finished
+2025-11-17 13:59:18.5056 PST [Polaris Status Provider] INFO: Results for test "SCA(scaPackage)" with ID "a48f591b-3a3c-4800-8108-a0c983c2b3e2" are available at https://poc.polaris.blackduck.com/portfolio/portfolios/567848cb-9ea0-4243-b3b4-0a08fed80507/portfolio-items/30fd0e39-d30e-42e4-a948-4c5c21268ebf/projects/8d97e153-1f61-400b-bcd5-447afa0eb87e/tests/a48f591b-3a3c-4800-8108-a0c983c2b3e2/detected-issues
+2025-11-17 13:59:18.5056 PST [Polaris Status Provider] INFO: Polaris issues view for project "EGC-SKO-BlackJack", branch "CodeSight_gonz+setest@blackduck.com" is available at https://poc.polaris.blackduck.com/portfolio/portfolios/567848cb-9ea0-4243-b3b4-0a08fed80507/portfolio-items/30fd0e39-d30e-42e4-a948-4c5c21268ebf/projects/8d97e153-1f61-400b-bcd5-447afa0eb87e/issues?branchId=e76a0ce5-ed29-4930-b7fc-e8b9d0fac557
+2025-11-17 13:59:18.5133 PST [Polaris Status Provider] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.summary.url'
+2025-11-17 13:59:18.5134 PST [Polaris Status Provider] INFO: Provided value for resource 'polaris.project.issues.url'
+2025-11-17 13:59:18.5135 PST [Polaris Status Provider] INFO: Adapter finished
