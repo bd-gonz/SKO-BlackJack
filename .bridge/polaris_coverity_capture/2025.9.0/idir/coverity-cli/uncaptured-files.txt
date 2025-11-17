@@ -1,3 +1,0 @@
-/Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/src/bcrypt.cc
-/Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/src/bcrypt_node.cc
-/Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/src/blowfish.cc
