@@ -302,3 +302,4 @@
 2025-11-17 13:58:04.8449 PST [Polaris Waiter] ERROR: error while waiting for test with assessment type "SAST(sastFull)" and id "1664f061-b4b8-4142-9954-0cfdbb5c5f5d": the artifact uploaded was found unsuccessful
 2025-11-17 13:58:05.1843 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Waiting for Capture"
 2025-11-17 13:58:15.3788 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Queuing"
+2025-11-17 13:58:56.1709 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Scanning & Publishing"
