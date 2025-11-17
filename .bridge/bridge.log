@@ -1,0 +1,304 @@
+2025-11-17 13:57:16.7476 PST [Bridge CLI] INFO: Using cache directory: /Users/gonz/.blackduck/desktop/controller/installedtools/bridge/3.9.2
+2025-11-17 13:57:16.7510 PST [Bridge CLI] INFO: Found version "3.0.371" in registry for workflow "polaris", trying to load it from local cache
+2025-11-17 13:57:17.6536 PST [Bridge CLI] INFO: Input Resources:
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: resource = value [source]
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: ------------------------------------------------------------
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: POLARIS.ACCESSTOKEN = ***************************************** [env]
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: POLARIS.application.name = EGC-SKO-BlackJack [cmd]
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: POLARIS.assessment.mode = IDE [cmd]
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: POLARIS.assessment.types = [SAST SCA] [cmd]
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: POLARIS.branch.name = CodeSight_gonz+setest@blackduck.com [cmd]
+2025-11-17 13:57:17.6537 PST [Bridge CLI] INFO: POLARIS.onboarding = true [cmd]
+2025-11-17 13:57:17.6538 PST [Bridge CLI] INFO: POLARIS.project.name = EGC-SKO-BlackJack [cmd]
+2025-11-17 13:57:17.6538 PST [Bridge CLI] INFO: POLARIS.serverurl = https://poc.polaris.blackduck.com [cmd]
+2025-11-17 13:57:17.6538 PST [Bridge CLI] INFO: ------------------------------------------------------------
+2025-11-17 13:57:17.6538 PST [Bridge CLI] INFO: Starting adapters for stage polaris
+2025-11-17 13:57:17.6549 PST [Bridge CLI] INFO: Starting Adapter: Polaris Status Provider
+2025-11-17 13:57:17.6549 PST [Bridge CLI] INFO: Starting Adapter: Polaris SCM Discovery
+2025-11-17 13:57:17.6549 PST [Bridge CLI] INFO: Starting Adapter: Polaris Initializer
+2025-11-17 13:57:17.6549 PST [Bridge CLI] INFO: Starting Adapter: Polaris Controller
+2025-11-17 13:57:17.6615 PST [Bridge CLI] INFO: Starting Adapter: Set Polaris Wait For Scan
+2025-11-17 13:57:17.6616 PST [Set Polaris Wait For Scan] INFO: Provided value for resource 'polaris.waitForScan'
+2025-11-17 13:57:17.6616 PST [Set Polaris Wait For Scan] INFO: Adapter finished
+2025-11-17 13:57:18.0401 PST [Polaris SCM Discovery] INFO: Adapter finished
+2025-11-17 13:57:19.4208 PST [Polaris Initializer] INFO: Branch doesn't exist. Will create new branch as 'polaris.onboarding' is set to 'true'
+2025-11-17 13:57:20.2258 PST [Polaris Initializer] INFO: Successfully created test for "SAST(sastFull)" assessment. The short test ID is "RK7G1UT"
+2025-11-17 13:57:20.2332 PST [Polaris Initializer] INFO: Successfully created test for "SCA(scaPackage)" assessment. The short test ID is "HMWGMAO"
+2025-11-17 13:57:20.2460 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.id'
+2025-11-17 13:57:20.2462 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.id'
+2025-11-17 13:57:20.2464 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.shortId'
+2025-11-17 13:57:20.2466 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SCA.tests.scaPackage.shortId'
+2025-11-17 13:57:20.2469 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SAST.tests.sastFull.streamId'
+2025-11-17 13:57:20.2470 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.project.id'
+2025-11-17 13:57:20.2472 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.branch.id'
+2025-11-17 13:57:20.2473 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.portfolioid'
+2025-11-17 13:57:20.2475 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.tenant.id'
+2025-11-17 13:57:20.2476 PST [Polaris Initializer] INFO: Provided value for resource 'polaris.application.id'
+2025-11-17 13:57:20.2480 PST [Polaris Initializer] INFO: Adapter finished
+2025-11-17 13:57:20.2601 PST [Bridge CLI] INFO: Starting Adapter: Check pull request
+2025-11-17 13:57:20.5917 PST [Check pull request] INFO: Provided value for resource 'environment.scan.pull'
+2025-11-17 13:57:20.5918 PST [Check pull request] INFO: Adapter finished
+2025-11-17 13:57:21.0420 PST [Polaris Controller] INFO: Running for "sast" assessment with scan type "sastFull"
+2025-11-17 13:57:21.0422 PST [Polaris Controller] INFO: fetching recommended "coverity" tool info...
+2025-11-17 13:57:21.3637 PST [Polaris Controller] INFO: checking "coverity" tool installation inside bridge home directory: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0
+2025-11-17 13:57:21.3638 PST [Polaris Controller] INFO: Checking tool version for "cov_thin_client" in "/Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0"
+2025-11-17 13:57:21.3658 PST [Polaris Controller] INFO: Running command:/Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/coverity --version
+2025-11-17 13:57:21.8140 PST [Polaris Controller] INFO: Got tool version for "cov_thin_client": 2025.9.0
+2025-11-17 13:57:21.9735 PST [Polaris Controller] INFO: "coverity" tool is already installed...
+2025-11-17 13:57:21.9736 PST [Polaris Controller] INFO: fetching recommended "Sigma" tool info...
+2025-11-17 13:57:22.1462 PST [Polaris Controller] INFO: checking "Sigma" tool installation inside bridge home directory: /Users/gonz/.blackduck/bridge/tools/sigma/2025.10.0
+2025-11-17 13:57:22.1462 PST [Polaris Controller] INFO: Checking tool version for "sigma" in "/Users/gonz/.blackduck/bridge/tools/sigma/2025.10.0"
+2025-11-17 13:57:22.1468 PST [Polaris Controller] INFO: Running command:/Users/gonz/.blackduck/bridge/tools/sigma/2025.10.0/sigma --version
+2025-11-17 13:57:22.5904 PST [Polaris Controller] INFO: Got tool version for "sigma": 2025.10.0
+2025-11-17 13:57:22.7378 PST [Polaris Controller] INFO: "Sigma" tool is already installed...
+2025-11-17 13:57:22.7379 PST [Polaris Controller] INFO: Running for "sca" assessment with scan type "scaPackage"
+2025-11-17 13:57:22.7379 PST [Polaris Controller] INFO: fetching recommended "detect" tool info...
+2025-11-17 13:57:22.8876 PST [Polaris Controller] INFO: checking "detect" tool installation inside bridge home directory: /Users/gonz/.blackduck/bridge/tools/blackduck-detect/10.4.0
+2025-11-17 13:57:22.8886 PST [Polaris Controller] INFO: Running command:/Library/Java/JavaVirtualMachines/microsoft-21.jdk/Contents/Home/bin/java -version
+2025-11-17 13:57:23.3286 PST [Polaris Controller] INFO: Checking tool version for "detect" in "/Users/gonz/.blackduck/bridge/tools/blackduck-detect/10.4.0"
+2025-11-17 13:57:23.3314 PST [Polaris Controller] INFO: Got tool version for "detect": 10.4.0
+2025-11-17 13:57:23.4839 PST [Polaris Controller] INFO: "detect" tool is already installed...
+2025-11-17 13:57:23.4972 PST [Polaris Controller] INFO: Provided value for resource 'coverity.id'
+2025-11-17 13:57:23.4974 PST [Polaris Controller] INFO: Provided value for resource 'sigma.id'
+2025-11-17 13:57:23.4975 PST [Polaris Controller] INFO: Provided value for resource 'detect.id'
+2025-11-17 13:57:23.4976 PST [Bridge CLI] INFO: Starting adapters for stage polaris-sast
+2025-11-17 13:57:23.4976 PST [Bridge CLI] INFO: Starting adapters for stage polaris-sca-package
+2025-11-17 13:57:23.4976 PST [Bridge CLI] INFO: Starting adapters for stage polaris-artifacts-uploader
+2025-11-17 13:57:23.4976 PST [Bridge CLI] INFO: Starting adapters for stage polaris-post-processing
+2025-11-17 13:57:23.4988 PST [Bridge CLI] INFO: Starting Adapter: Polaris SCA Package Manager Scan
+2025-11-17 13:57:23.4988 PST [Bridge CLI] INFO: Starting Adapter: Polaris Artifacts Uploader
+2025-11-17 13:57:23.4988 PST [Bridge CLI] INFO: Starting Adapter: Polaris Waiter
+2025-11-17 13:57:23.4988 PST [Bridge CLI] INFO: Starting Adapter: Polaris Coverity Capture
+2025-11-17 13:57:23.4988 PST [Bridge CLI] INFO: Starting Adapter: Polaris Issues Fetcher
+2025-11-17 13:57:23.4988 PST [Bridge CLI] INFO: Starting Adapter: Polaris Policy Checker
+2025-11-17 13:57:23.5002 PST [Polaris Controller] INFO: Adapter finished
+2025-11-17 13:57:23.5256 PST [Bridge CLI] INFO: Starting Adapter: Default Adapter for execution path
+2025-11-17 13:57:23.5263 PST [Default Adapter for execution path] INFO: Provided value for resource 'coverity.execution.path'
+2025-11-17 13:57:23.5263 PST [Default Adapter for execution path] INFO: Adapter finished
+2025-11-17 13:57:23.5327 PST [Bridge CLI] INFO: Starting Adapter: Default Adapter for execution path
+2025-11-17 13:57:23.5328 PST [Default Adapter for execution path] INFO: Provided value for resource 'sigma.execution.path'
+2025-11-17 13:57:23.5329 PST [Default Adapter for execution path] INFO: Adapter finished
+2025-11-17 13:57:23.9097 PST [Polaris Coverity Capture] INFO: Identified workflow: Polaris
+2025-11-17 13:57:23.9103 PST [Polaris Coverity Capture] INFO: command: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/coverity capture --dir /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir -o analyze.location=connect
+2025-11-17 13:57:23.9497 PST [Polaris Coverity Capture] INFO: coverity 2025.9.0 covcli-2025.9-push-12
+2025-11-17 13:57:23.9497 PST [Polaris Coverity Capture] INFO: envvar: COVERITY_CACHE_API_TOKEN_FILE=/var/folders/q4/7hthhtjs1tnbj65766xh6cm40000gp/T/polaris_coverity_cache556532697/.authKey
+2025-11-17 13:57:23.9498 PST [Polaris Coverity Capture] INFO: envvar: COVERITY_CACHE_KEY=5544ba99-8b7b-4f69-81eb-53d934379165
+2025-11-17 13:57:23.9498 PST [Polaris Coverity Capture] INFO: envvar: COVERITY_CACHE_URL=https://poc.polaris.blackduck.com/api/cache
+2025-11-17 13:57:23.9498 PST [Polaris Coverity Capture] INFO: envvar: COVERITY_CLI_CAPTURE_ZIP_ARCHIVE=/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/idir.zip
+2025-11-17 13:57:23.9498 PST [Polaris Coverity Capture] INFO: envvar: COVERITY_CLI_POLARIS_CLIENT=true
+2025-11-17 13:57:23.9501 PST [Polaris Coverity Capture] INFO: Detected that stdout is not connected to a terminal.  Defaulting ticker mode to 'none'.
+2025-11-17 13:57:23.9501 PST [Polaris Coverity Capture] INFO: If this is not correct, explicitly set the ticker mode to the desired value using the '--ticker-mode' option.
+2025-11-17 13:57:23.9508 PST [Polaris Coverity Capture] INFO: Executing command: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-manage-emit --dir /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir create
+2025-11-17 13:57:24.3213 PST [Polaris Coverity Capture] INFO: Using lightweight capture with thin client.
+2025-11-17 13:57:24.3214 PST [Polaris Coverity Capture] INFO: Executing command: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-internal-manage-cache check
+2025-11-17 13:57:25.0428 PST [Polaris Coverity Capture] INFO: Caching is enabled.
+2025-11-17 13:57:25.0453 PST [Polaris Coverity Capture] INFO: Telemetry is enabled
+2025-11-17 13:57:25.1858 PST [Polaris Coverity Capture] INFO: Executing command: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-manage-emit --dir /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir list-capture-diagnostics
+2025-11-17 13:57:25.1997 PST [Polaris Coverity Capture] INFO: Executing action no-op: nothing to do for initialization
+2025-11-17 13:57:25.2599 PST [Polaris Coverity Capture] INFO: Executing action Delete compiler configurations for intermediate directory '/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir'
+2025-11-17 13:57:25.2600 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler gcc --comptype clangcc --template
+2025-11-17 13:57:25.9949 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler cc --comptype gcc --template
+2025-11-17 13:57:26.1841 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler c++ --comptype g++ --template
+2025-11-17 13:57:26.3784 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler clang --comptype clangcc --template
+2025-11-17 13:57:26.5666 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler java --comptype java --template
+2025-11-17 13:57:26.7638 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler go --comptype go --template
+2025-11-17 13:57:26.9558 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler ccache --comptype prefix --template
+2025-11-17 13:57:27.1487 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler kotlinc --comptype kotlinc --template
+2025-11-17 13:57:27.3444 PST [Polaris Coverity Capture] WARNING: Template config template-java-config-0 already exists for java and will be reused. 
+2025-11-17 13:57:27.3445 PST [Polaris Coverity Capture] WARNING: Template config template-apt-config-0 already exists for apt and will be reused. 
+2025-11-17 13:57:27.3445 PST [Polaris Coverity Capture] WARNING: Template config template-javaw-config-0 already exists for javaw and will be reused. 
+2025-11-17 13:57:27.3489 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --dart
+2025-11-17 13:57:27.5351 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --javascript
+2025-11-17 13:57:27.7263 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --php
+2025-11-17 13:57:27.9226 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --python
+2025-11-17 13:57:28.1191 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --ruby
+2025-11-17 13:57:28.3112 PST [Polaris Coverity Capture] INFO: Executing action Configure build compiler: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-configure -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --comptype capture-config-files --file-regex $capture-config-files$ --template
+2025-11-17 13:57:28.3307 PST [Polaris Coverity Capture] WARNING: Configuration already exists for file regex $capture-config-files$
+2025-11-17 13:57:28.3308 PST [Polaris Coverity Capture] INFO:           and it will not be updated.
+2025-11-17 13:57:28.4053 PST [Polaris Coverity Capture] INFO: Executing action no-op: no compilers need to be unconfigured
+2025-11-17 13:57:28.4610 PST [Polaris Coverity Capture] INFO: Executing action no-op: compiler configurations loaded
+2025-11-17 13:57:28.5226 PST [Polaris Coverity Capture] INFO: Executing action Execute clean command: make -f /Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/Makefile clean
+2025-11-17 13:57:29.1908 PST [Polaris Coverity Capture] INFO: rm -Rf lib/bindings/
+2025-11-17 13:57:29.1973 PST [Polaris Coverity Capture] INFO: Executing action Invoke build capture: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-build --dir /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching make -f /Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/Makefile
+2025-11-17 13:57:29.5669 PST [Polaris Coverity Capture] INFO: Coverity Build Capture (64-bit) version 2025.9.0 on Darwin 24.6.0 arm64
+2025-11-17 13:57:29.5669 PST [Polaris Coverity Capture] INFO: Internal version numbers: 477d3c5ddd p-2025.9-push-57
+2025-11-17 13:57:29.5669 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:29.5742 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:35.8183 PST [Polaris Coverity Capture] INFO: rm -Rf lib/bindings/
+2025-11-17 13:57:36.5100 PST [Polaris Coverity Capture] INFO: npm install .
+2025-11-17 13:57:48.7744 PST [Polaris Coverity Capture] INFO: npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2025-11-17 13:57:48.8179 PST [Polaris Coverity Capture] INFO: npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-17 13:57:55.4323 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:55.4324 PST [Polaris Coverity Capture] INFO: > bcrypt@6.0.0 install
+2025-11-17 13:57:55.4324 PST [Polaris Coverity Capture] INFO: > node-gyp-build
+2025-11-17 13:57:55.4324 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:56.1900 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:56.1901 PST [Polaris Coverity Capture] INFO: added 289 packages, and audited 290 packages in 18s
+2025-11-17 13:57:56.1901 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:56.1901 PST [Polaris Coverity Capture] INFO: 37 packages are looking for funding
+2025-11-17 13:57:56.1901 PST [Polaris Coverity Capture] INFO:   run `npm fund` for details
+2025-11-17 13:57:56.1905 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:56.1905 PST [Polaris Coverity Capture] INFO: found 0 vulnerabilities
+2025-11-17 13:57:56.2012 PST [Polaris Coverity Capture] INFO: npm run install
+2025-11-17 13:57:56.5152 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:56.5152 PST [Polaris Coverity Capture] INFO: > bcrypt@6.0.0 install
+2025-11-17 13:57:56.5152 PST [Polaris Coverity Capture] INFO: > node-gyp-build
+2025-11-17 13:57:56.5152 PST [Polaris Coverity Capture] INFO: 
+2025-11-17 13:57:57.7366 PST [Polaris Coverity Capture] INFO: No tests found, exiting with code 1
+2025-11-17 13:57:57.7366 PST [Polaris Coverity Capture] INFO: Run with `--passWithNoTests` to exit with code 0
+2025-11-17 13:57:57.7366 PST [Polaris Coverity Capture] INFO: No files found in /Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt.
+2025-11-17 13:57:57.7366 PST [Polaris Coverity Capture] INFO: Make sure Jest's configuration does not exclude this directory.
+2025-11-17 13:57:57.7366 PST [Polaris Coverity Capture] INFO: To set up Jest, make sure a package.json file exists.
+2025-11-17 13:57:57.7366 PST [Polaris Coverity Capture] INFO: Jest Documentation: https://jestjs.io/docs/configuration
+2025-11-17 13:57:57.7367 PST [Polaris Coverity Capture] INFO: Pattern: test/async.test.js|test/implementation.test.js|test/promise.test.js|test/repetitions.test.js|test/sync.test.js - 0 matches
+2025-11-17 13:57:57.7391 PST [Polaris Coverity Capture] INFO: make: *** [test] Error 1
+2025-11-17 13:57:57.9179 PST [Polaris Coverity Capture] INFO: Attempting to detect unconfigured compilers in build
+2025-11-17 13:57:57.9226 PST [Polaris Coverity Capture] INFO: |0----------25-----------50----------75---------100|
+2025-11-17 13:57:57.9647 PST [Polaris Coverity Capture] INFO: ****************************************************
+2025-11-17 13:57:57.9749 PST [Polaris Coverity Capture] WARNING: Build command make -f /Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/Makefile exited with code 2. Please verify that the build completed successfully.
+2025-11-17 13:57:57.9749 PST [Polaris Coverity Capture] INFO:  For more details, please look at: 
+2025-11-17 13:57:57.9749 PST [Polaris Coverity Capture] INFO:     /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/build-log.txt
+2025-11-17 13:57:58.0093 PST [Polaris Coverity Capture] INFO: Executing action Collect Build Metrics
+2025-11-17 13:57:58.0095 PST [Polaris Coverity Capture] INFO: Executing action Invalidate capture results
+2025-11-17 13:57:58.0095 PST [Polaris Coverity Capture] INFO: Executing action Update uncaptured file timestamps for project "/Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/Makefile"
+2025-11-17 13:57:58.0097 PST [Polaris Coverity Capture] INFO: Executing command: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-manage-emit --dir /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir list-capture-diagnostics
+2025-11-17 13:57:58.1624 PST [Polaris Coverity Capture] INFO: Capture phase took 33.119s.
+2025-11-17 13:57:58.1635 PST [Polaris Coverity Capture] ERROR: Failed to capture module '/Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/Makefile' using automatic build capture and cloud analysis is not supported for buildless capture of the given project. Build capture is required because the module contains the following compiled languages: C++. For a list of all the uncaptured compiled files in the module see '/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/uncaptured-files.txt'. Please provide a build command or skip the compiled languages listed above, and try again.
+2025-11-17 13:57:58.1649 PST [Polaris Coverity Capture] ERROR: exit status 1
+2025-11-17 13:57:58.1649 PST [Polaris Coverity Capture] ERROR: exit code: 1
+2025-11-17 13:57:58.1697 PST [Polaris Coverity Capture] INFO: Provided value for resource 'coverity.completed'
+2025-11-17 13:57:58.1698 PST [Polaris Coverity Capture] INFO: Provided value for resource 'coverity.idir.output'
+2025-11-17 13:57:58.1699 PST [Polaris Coverity Capture] INFO: Provided value for resource 'polaris.test.sast.tests.sastFull.artifacts.path'
+2025-11-17 13:57:58.1700 PST [Polaris Coverity Capture] ERROR: Adapter failed: exit status 1
+2025-11-17 13:57:58.1714 PST [Bridge CLI] INFO: Starting Adapter: Default Adapter for execution path
+2025-11-17 13:57:58.1715 PST [Default Adapter for execution path] INFO: Provided value for resource 'detect.execution.path'
+2025-11-17 13:57:58.1715 PST [Default Adapter for execution path] INFO: Adapter finished
+2025-11-17 13:57:58.4561 PST [Polaris SCA Package Manager Scan] INFO: Running command java -jar /Users/gonz/.blackduck/bridge/tools/blackduck-detect/10.4.0/detect-10.4.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact --detect.output.path=/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect --detect.tools=DETECTOR --detect.component.location.analysis.enabled=true --blackduck.offline.mode=true --blackduck.offline.mode.force.bdio=true
+2025-11-17 13:57:58.0000 PST [Polaris SCA Package Manager Scan][main] WARNING: --- Detect-Self-Updater:  Self-Update feature is disabled because of the following reasons:
+2025-11-17 13:57:58.0000 PST [Polaris SCA Package Manager Scan][main] WARNING: --- Detect-Self-Updater:  Detect in offline mode is incompatible with the Self-Update feature.
+2025-11-17 13:57:58.0000 PST [Polaris SCA Package Manager Scan][main] WARNING: --- Detect-Self-Updater:  Black Duck URL is required for the Self-Update feature.
+2025-11-17 13:57:59.3443 PST [Polaris SCA Package Manager Scan] INFO: ______     _            _
+2025-11-17 13:57:59.3443 PST [Polaris SCA Package Manager Scan] INFO: |  _  \   | |          | |
+2025-11-17 13:57:59.3443 PST [Polaris SCA Package Manager Scan] INFO: | | | |___| |_ ___  ___| |_
+2025-11-17 13:57:59.3444 PST [Polaris SCA Package Manager Scan] INFO: | | | / _ \ __/ _ \/ __| __|
+2025-11-17 13:57:59.3444 PST [Polaris SCA Package Manager Scan] INFO: | |/ /  __/ ||  __/ (__| |_
+2025-11-17 13:57:59.3444 PST [Polaris SCA Package Manager Scan] INFO: |___/ \___|\__\___|\___|\__|
+2025-11-17 13:57:59.3444 PST [Polaris SCA Package Manager Scan] INFO: 
+2025-11-17 13:57:59.4296 PST [Polaris SCA Package Manager Scan] INFO: 
+2025-11-17 13:57:59.4297 PST [Polaris SCA Package Manager Scan] INFO: Detect Version: 10.4.0
+2025-11-17 13:57:59.4297 PST [Polaris SCA Package Manager Scan] INFO: 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Current property values:
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- --property = value [notes]
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ------------------------------------------------------------
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- blackduck.offline.mode = true [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- blackduck.offline.mode.force.bdio = true [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.bdio.file.name = scan [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.bdio.output.path = /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.cleanup = false [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.component.location.analysis.enabled = true [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.excluded.directories = /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge [env] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.maven.path = /Users/gonz/Library/CloudStorage/OneDrive-BlackDuckSoftware/Documents/apache-maven-3.9.9/bin/mvn [env] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.npm.path = /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js [env] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.output.path = /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- detect.tools = DETECTOR [cmd] 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ------------------------------------------------------------
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Detect build date: 2025-04-24
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Source directory: /Users/gonz/Code/VibeCoding/SKO-BlackJack
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Output directory: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Run directory: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] WARNING: --- Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Docker tool will not be run.
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Bazel tool will not be run.
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Will include the Detectors tool.
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Searching for detectors.
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Evaluating detectors. This may take a while.
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Running executable >/usr/bin/git config --get remote.origin.url
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Process return code: 0
+2025-11-17 13:57:59.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Running executable >/usr/bin/git rev-parse --abbrev-ref HEAD
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Process return code: 0
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Running executable >/usr/bin/git rev-parse HEAD
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Process return code: 0
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ======================================================================================================
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Detector Report
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ======================================================================================================
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 	/Users/gonz/Code/VibeCoding/SKO-BlackJack (depth 0)
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 		NPM Package Lock: SUCCESS
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 			Found file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/package-lock.json
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 			Found file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/package.json
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 		Git: SUCCESS
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 			Found file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.git
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 			Found executable: /usr/bin/git
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- The following project names were found: 
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 	NPM: sko-blackjack, 1.0.0
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Chose to use NPM at depth 0 for project name and version. Override with detect.project.detector.
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Detectors actions finished.
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Project name: sko-blackjack
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Project version: 1.0.0
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Signature Scanner tool will not be run.
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Vulnerability Impact Analysis tool will not be run.
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- IaC Scanner tool will not be run.
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ##################################################################################################
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #                                                                                                #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  Product Notice                                                                                #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  © 2024 Black Duck Software, Inc.                                                              #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  This Black Duck Component Locator and all associated documentation are proprietary            #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  to Black Duck Software, Inc. and may only be used pursuant to the terms and conditions of a   #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  written license agreement with Black Duck Software, Inc. All other use, reproduction,         #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  modification, or distribution of the Black Duck Component Locator or the associated           #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #  documentation is strictly prohibited.                                                         #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- #                                                                                                #
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ##################################################################################################
+2025-11-17 13:58:00.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Running Component Locator v1.1.12 on /Users/gonz/Code/VibeCoding/SKO-BlackJack
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Component Location Analysis file saved at: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/scan/components-with-locations.json
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ----------------------------------
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Creating status file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/status/status.json
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Skipping cleanup, it is disabled.
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ======== Detect Result ========
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Component Location Analysis File: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/scan/components-with-locations.json
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ======== Detect Status ========
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- GIT: SUCCESS
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- NPM: SUCCESS
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Overall Status: SUCCESS - Detect exited successfully.
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- ===============================
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- 
+2025-11-17 13:58:02.0000 PST [Polaris SCA Package Manager Scan][main] INFO: --- Detect duration: 00h 00m 03s 626ms
+2025-11-17 13:58:02.3632 PST [Polaris SCA Package Manager Scan] INFO: Provided value for resource 'detect.completed'
+2025-11-17 13:58:02.3633 PST [Polaris SCA Package Manager Scan] INFO: Provided value for resource 'polaris.test.sca.tests.scaPackage.artifacts.path'
+2025-11-17 13:58:02.3634 PST [Polaris SCA Package Manager Scan] INFO: Adapter finished
+2025-11-17 13:58:02.6688 PST [Polaris Artifacts Uploader] INFO: uploading artifact for "SAST(sastFull)" assessment with id "1664f061-b4b8-4142-9954-0cfdbb5c5f5d"
+2025-11-17 13:58:02.6690 PST [Polaris Artifacts Uploader] INFO: uploading artifact for "SCA(scaPackage)" assessment with id "a48f591b-3a3c-4800-8108-a0c983c2b3e2"
+2025-11-17 13:58:02.6691 PST [Polaris Artifacts Uploader] ERROR: error while uploading the artifact "/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/idir.zip" for "SAST(sastFull)" assessment: scan was found unsuccessful
+2025-11-17 13:58:03.3172 PST [Polaris Artifacts Uploader] INFO: failed the test for "SAST(sastFull)" assessment with id "1664f061-b4b8-4142-9954-0cfdbb5c5f5d"
+2025-11-17 13:58:03.3498 PST [Polaris Artifacts Uploader] INFO: Uploading artifact /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/blackduck-sca-artifacts.zip for "SCA(scaPackage)" assessment
+2025-11-17 13:58:03.5823 PST [Polaris Artifacts Uploader] INFO: Uploading Progress of "SCA(scaPackage)" artifact: 100%  13514/13514
+2025-11-17 13:58:04.0600 PST [Polaris Artifacts Uploader] INFO: successfully uploaded artifact "/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/blackduck-sca-artifacts.zip"
+2025-11-17 13:58:04.4544 PST [Polaris Artifacts Uploader] INFO: successfully resumed "SCA(scaPackage)" assessment with id "a48f591b-3a3c-4800-8108-a0c983c2b3e2"
+2025-11-17 13:58:04.4672 PST [Polaris Artifacts Uploader] INFO: Provided value for resource 'polaris.test.sast.tests.sastFull.artifacts.uploadSuccessful'
+2025-11-17 13:58:04.4680 PST [Polaris Artifacts Uploader] INFO: Provided value for resource 'polaris.test.sca.tests.scaPackage.artifacts.uploadSuccessful'
+2025-11-17 13:58:04.4684 PST [Polaris Artifacts Uploader] ERROR: Adapter failed: exit status 1
+2025-11-17 13:58:04.8445 PST [Polaris Waiter] INFO: Waiting for test with assessment type "SAST(sastFull)" and id "1664f061-b4b8-4142-9954-0cfdbb5c5f5d"
+2025-11-17 13:58:04.8447 PST [Polaris Waiter] INFO: Waiting for test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2"
+2025-11-17 13:58:04.8449 PST [Polaris Waiter] ERROR: error while waiting for test with assessment type "SAST(sastFull)" and id "1664f061-b4b8-4142-9954-0cfdbb5c5f5d": the artifact uploaded was found unsuccessful
+2025-11-17 13:58:05.1843 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Waiting for Capture"
+2025-11-17 13:58:15.3788 PST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "SCA(scaPackage)" and id "a48f591b-3a3c-4800-8108-a0c983c2b3e2" is "Queuing"

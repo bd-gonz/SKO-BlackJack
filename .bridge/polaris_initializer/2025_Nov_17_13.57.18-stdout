@@ -1,0 +1,4 @@
+/Users/gonz/.blackduck/desktop/controller/installedtools/bridge/3.9.2/adapters/polaris-initializer/versions/1.0.174/polaris-initializer /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_initializer/data.json
+{"level":"info","logger":"Polaris Initializer","msg":"Branch doesn't exist. Will create new branch as 'polaris.onboarding' is set to 'true'","time":"2025-11-17 13:57:19.4208 PST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SAST(sastFull)\" assessment. The short test ID is \"RK7G1UT\"","time":"2025-11-17 13:57:20.2258 PST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SCA(scaPackage)\" assessment. The short test ID is \"HMWGMAO\"","time":"2025-11-17 13:57:20.2332 PST"}

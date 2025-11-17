@@ -1,0 +1,29 @@
+# Version: 477d3c5ddd p-2025.9-push-57
+# Command Line: /Users/gonz/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-build --dir /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir -c /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching make -f /Users/gonz/Code/VibeCoding/SKO-BlackJack/node_modules/bcrypt/Makefile
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                             28404          1
+  create_or_open emit DB                  1          1
+    open emit DB                          1          1
+  add_string_to_table                     0         16
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0         60
+  Prepare capture                      1483          1
+  Running build command               26677          1
+  generate_generic_compiler_map         173          1
+    handle_derived_compiler              16         17
+  (left over)                            70
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                             28404          1
+create_or_open emit DB                    1          1
+open emit DB                              1          1
+add_string_to_table                       0         76
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                        1483          1
+Running build command                 26677          1
+generate_generic_compiler_map           173          1
+handle_derived_compiler                  16         17

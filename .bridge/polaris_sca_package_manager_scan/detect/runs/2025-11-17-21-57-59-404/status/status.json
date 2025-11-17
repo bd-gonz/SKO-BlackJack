@@ -1,0 +1,103 @@
+{
+  "formatVersion": "0.5.0",
+  "detectVersion": "10.4.0",
+  "projectName": "sko-blackjack",
+  "projectVersion": "1.0.0",
+  "detectors": [
+    {
+      "folder": "/Users/gonz/Code/VibeCoding/SKO-BlackJack",
+      "detectorType": "NPM",
+      "detectorName": "NPM Package Lock",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/package-lock.json",
+        "Found file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/package.json"
+      ],
+      "projectName": "sko-blackjack",
+      "projectVersion": "1.0.0",
+      "codeLocationCount": 1
+    },
+    {
+      "folder": "/Users/gonz/Code/VibeCoding/SKO-BlackJack",
+      "detectorType": "GIT",
+      "detectorName": "Git",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.git",
+        "Found executable: /usr/bin/git"
+      ],
+      "projectName": "bd-gonz/SKO-BlackJack",
+      "projectVersion": "develop",
+      "codeLocationCount": 0
+    }
+  ],
+  "status": [
+    {
+      "key": "GIT",
+      "status": "SUCCESS"
+    },
+    {
+      "key": "NPM",
+      "status": "SUCCESS"
+    }
+  ],
+  "issues": [],
+  "overallStatus": [
+    {
+      "key": "SUCCESS",
+      "status": "Detect exited successfully."
+    }
+  ],
+  "results": [
+    {
+      "location": "/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/scan/components-with-locations.json",
+      "message": "Component Location Analysis File: /Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/runs/2025-11-17-21-57-59-404/scan/components-with-locations.json",
+      "sub_messages": []
+    }
+  ],
+  "unrecognizedPaths": {},
+  "codeLocations": [],
+  "propertyValues": {
+    "blackduck.offline.mode": "true",
+    "blackduck.offline.mode.force.bdio": "true",
+    "detect.bdio.file.name": "scan",
+    "detect.bdio.output.path": "/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact",
+    "detect.cleanup": "false",
+    "detect.component.location.analysis.enabled": "true",
+    "detect.excluded.directories": "/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge",
+    "detect.maven.path": "/Users/gonz/Library/CloudStorage/OneDrive-BlackDuckSoftware/Documents/apache-maven-3.9.9/bin/mvn",
+    "detect.npm.path": "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+    "detect.output.path": "/Users/gonz/Code/VibeCoding/SKO-BlackJack/.bridge/polaris_sca_package_manager_scan/detect",
+    "detect.tools": "DETECTOR"
+  },
+  "operations": [
+    {
+      "startTimestamp": "2025-11-17 21:57:59.610",
+      "endTimestamp": "2025-11-17 21:58:00.042",
+      "descriptionKey": "Execute Detectors",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2025-11-17 21:58:00.043",
+      "endTimestamp": "2025-11-17 21:58:00.071",
+      "descriptionKey": "SubProject Aggregate",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2025-11-17 21:58:00.149",
+      "endTimestamp": "2025-11-17 21:58:02.332",
+      "descriptionKey": "Generating Component Location Analysis File for All Components",
+      "status": "SUCCESS"
+    }
+  ]
+}
